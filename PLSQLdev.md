@@ -1,4 +1,4 @@
-##PL/SQLdevelop工具的使用技巧：
+##[PL/SQLdevelop工具的使用技巧](http://blog.csdn.net/nomousewch/article/details/8699583)：
 
 ####1.PL/SQL Developer记住登陆密码:
 在使用PL/SQL Developer时，为了工作方便希望PL/SQL Developer记住登录Oracle的用户名和密码；
