@@ -28,7 +28,14 @@
 
 * __git remote -v__：查看本地配置的origin信息
 
-* __git push -u origin master__：绑定远程origin与本地仓库的关联关系
+* __git branch --set-upstream-to=origin/XXX__：将本地当前所在分支XXX与远程库XXX绑定对应关系
+
+* __git checktout -b XXX__: 从远程库拉取XXX(本地XXX分支的名字与远程库分支XXX名称相同)分支到本地
+* __git pull origin XXX__:将上一步取到的本地分支XXX与远程分支关联
+
+* __git branch xxx__：本地新建分支xxx
+* __git checkout -b xxx__:本地新建分支xxx(本地分支xxx名称与远程库中任何分支的名字都不相同)
+* __git push origin xxx__:将上一步新建的分支xxx推送到远程生成一个远程分支xxx
 
 * __git status__: 查看本地分支与远程分支的差异
 
